@@ -1,1 +1,55 @@
-/* Add your own styles */
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:rgb(239, 226, 250);
+    text-align: center;
+
+}
+
+header h1 {
+    color: white;    
+    font-family:cursive;
+    font-size: 40px;
+}
+
+header {
+    background-color: indigo;
+    display: flex; 
+	align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+header img {
+	width: auto;
+    height: 190px;;
+	margin-right: 30px; 
+}
+
+#controls {
+    padding: 40px;
+}
+
+button {
+    padding: 10px 20px;   
+    background-color: #9d0a0a;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:  rgb(200, 60, 60);
+}
+
+
+input {
+    width:40%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+    border-color: gold;
+  }
