@@ -28,7 +28,7 @@ header img {
 }
 
 #controls {
-    padding: 40px;
+    padding: 50px;
 }
 
 button {
@@ -38,18 +38,48 @@ button {
     border-radius: 5px;
     margin-left: 5px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 button:hover {
     background-color:  rgb(200, 60, 60);
 }
 
-
 input {
     width:40%;
     padding: 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 20px;
     border-color: gold;
   }
+
+  table {
+    width: 80%;
+    text-align: left; 
+    margin: auto; 
+    padding: 30px;  
+    border-collapse: collapse;  
+    border: 1px solid #b5b3b3;
+  }
+
+  td {
+    padding: 5px;
+    border: 1px solid #b5b3b3;
+  }
+
+  th {
+    background-color: #c79be4;
+    color: rgb(58, 12, 76);
+    padding: 10px;
+    border: 1px solid#b5b3b3;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f9efbb;
+  }
+  
