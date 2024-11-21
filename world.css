@@ -1,5 +1,5 @@
 body{
-    font-size: 20px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color:rgb(239, 226, 250);
@@ -16,14 +16,14 @@ header h1 {
 header {
     background-color: indigo;
     display: flex; 
-	align-items: center;
-    padding: 30px;
+	  align-items: center;
+    padding: 15px;
     justify-content: center;
 }
 
 header img {
 	width: auto;
-    height: 190px;;
+  height: 150px;;
 	margin-right: 30px; 
 }
 
@@ -31,28 +31,52 @@ header img {
     padding: 50px;
 }
 
-button {
-    padding: 10px 20px;   
+#buttons{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  font-size: 12px;
+}
+
+#countryBtn {
+    padding: 10px 15px;   
     background-color: #9d0a0a;
     color: white;
     border-radius: 5px;
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;    
 }
 
-button:hover {
+#countryBtn:hover {
     background-color:  rgb(200, 60, 60);
 }
 
+#citiesBtn {
+  padding: 10px 15px;   
+  background-color: #0e256f;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;  
+}
+
+#citiesBtn:hover {
+  background-color:  rgb(63, 107, 203);
+}
+
+label{
+  font-weight: bold;
+  color: rgb(58, 12, 76);
+}
+
 input {
-    width:40%;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-left: 20px;
-    border-color: gold;
-  }
+  width:45%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+  border-color: gold;
+}
 
   table {
     width: 80%;
